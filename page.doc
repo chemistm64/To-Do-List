@@ -1,0 +1,13 @@
+[1] create on click function 
+[2] check theInput Value if it is empty or no
+[3] create an empty array
+[4]create function to add tasks
+[5] create object inside that function
+[6] push the value of object inside the array
+[7] create divs that contains the value of inputs and delete button
+[8] set and get data tasks  to and from local storage 
+[9] delet task from screen
+[10] create delete local storage tasks function
+[11]
+[12]
+[12]
