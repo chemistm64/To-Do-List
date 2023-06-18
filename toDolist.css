@@ -86,3 +86,29 @@ body {
   font-weight: bold;
   font-size: 30px;
 }
+.page {
+  height: 10vh;
+}
+.page::before {
+  position: fixed;
+  content: "";
+  width: 250%;
+  height: 100%;
+  background-color: #0075ff;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) skew(0, -10deg);
+  z-index: -1;
+
+  border-radius: 50%;
+  animation: wavey 2s ease-in-out infinite alternate;
+}
+
+@keyframes wavey {
+  from {
+    transform: translateX(-50%) skew(0, -10deg);
+  }
+  to {
+    transform: translateX(-30%) skew(10deg, 0);
+  }
+}
