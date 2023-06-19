@@ -3,7 +3,7 @@ body {
   background-color: #0075ff36;
 }
 .page {
-  height: 10vh;
+  height: 100vh;
 }
 .page::before {
   position: fixed;
